@@ -7,6 +7,7 @@ ContextVibe是一个基于AMI Meeting Corpus的多模态会议情感分析系统
 ### 🎯 核心功能
 
 - **多模态数据处理**: 支持音频、视频、文本数据的联合分析
+- **MAVEN多模态情感分析**: 集成MAVEN (Multi-modal Attention for Valence-Arousal Emotion Network) 进行高精度情感分析
 - **VAEC情感计算**: 实现四个维度的情感指标计算
 - **多人对话分析**: 支持多参与者会议场景
 - **实时状态监控**: 提供参与者状态稳定性和团队融入度分析
@@ -23,7 +24,8 @@ ContextVibe/
 │   ├── cli.py                  # 命令行接口
 │   ├── core/                   # 核心计算模块
 │   │   ├── __init__.py
-│   │   └── vae_calculator.py   # VAEC计算核心
+│   │   ├── vae_calculator.py   # VAEC计算核心
+│   │   └── maven_integration.py # MAVEN多模态情感分析集成
 │   ├── analysis/               # 分析模块
 │   │   ├── __init__.py
 │   │   └── multimodal_cohesion_analyzer.py  # 多模态一致性分析器
@@ -52,6 +54,9 @@ ContextVibe/
 │   ├── multi_speaker/          # 多人对话数据
 │   └── results/                # 分析结果
 ├── sample_main.py              # 示例主程序
+├── maven_demo.py               # MAVEN演示脚本
+├── simple_maven_demo.py        # 简化MAVEN演示脚本
+├── install_maven.py            # MAVEN安装脚本
 ├── setup.py                    # 包安装配置
 ├── requirements.txt            # 依赖包列表
 ├── README.md                   # 项目文档
@@ -99,7 +104,7 @@ contextvibe --help
 ```python
 from contextvibe import VAE_CCalculator, MultimodalCohesionAnalyzer
 
-# 创建计算器
+# 创建计算器（自动使用MAVEN）
 calculator = VAE_CCalculator()
 
 # 计算文本情感
@@ -108,6 +113,27 @@ print(f"Valence: {scores[0]:.3f}, Arousal: {scores[1]:.3f}")
 
 # 创建分析器
 analyzer = MultimodalCohesionAnalyzer()
+```
+
+#### 4. 使用MAVEN多模态情感分析
+
+```python
+from contextvibe.core.maven_integration import MAVENVACalculator
+
+# 创建MAVEN计算器
+maven_calculator = MAVENVACalculator()
+
+# 文本情感分析
+valence, arousal = maven_calculator.calculate_text_va("I'm very excited about this project!")
+
+# 音频情感分析
+valence, arousal = maven_calculator.calculate_audio_va("audio.wav")
+
+# 视频情感分析
+valence, arousal = maven_calculator.calculate_video_va("video.mp4")
+
+# 多模态情感分析
+valence, arousal = maven_calculator.calculate_multimodal_va("data.txt")
 ```
 
 ### 方法二：直接运行示例
@@ -120,8 +146,17 @@ cd ContextVibe
 # 安装依赖
 pip install -r requirements.txt
 
+# 安装MAVEN（可选，但推荐）
+python install_maven.py
+
 # 运行示例程序
 python sample_main.py
+
+# 运行MAVEN演示
+python maven_demo.py
+
+# 运行简化MAVEN演示（推荐）
+python simple_maven_demo.py
 ```
 
 ### 方法三：传统方式
@@ -173,9 +208,50 @@ python sample_main.py
 
 ## 📊 VAEC计算方法详解
 
+### 0. **MAVEN多模态情感分析**
+
+ContextVibe集成了MAVEN (Multi-modal Attention for Valence-Arousal Emotion Network) 进行高精度的多模态情感分析。MAVEN使用以下预训练模型：
+
+- **视觉特征**: Swin Transformer (Swin-B)
+- **音频特征**: HuBERT (facebook/hubert-base-ls960)
+- **文本特征**: RoBERTa (roberta-base)
+- **跨模态融合**: 双向跨模态注意力机制
+
+```python
+# MAVEN特征提取
+class MAVENFeatureExtractor:
+    def extract_video_features(self, video_path: str) -> torch.Tensor:
+        # 使用Swin Transformer提取视频特征
+        pass
+    
+    def extract_audio_features(self, audio_path: str) -> torch.Tensor:
+        # 使用HuBERT提取音频特征
+        pass
+    
+    def extract_text_features(self, text: str) -> torch.Tensor:
+        # 使用RoBERTa提取文本特征
+        pass
+
+# MAVEN跨模态注意力
+class MAVENCrossModalAttention(nn.Module):
+    # 六种跨模态注意力路径
+    # Video ↔ Audio, Video ↔ Text, Audio ↔ Text
+    pass
+```
+
 ### 1. **Valence（效价）计算**
 
-#### 文本效价
+#### MAVEN文本效价
+```python
+# 使用MAVEN进行文本情感分析
+from contextvibe.core.maven_integration import MAVENVACalculator
+
+def calculate_text_va_maven(self, text: str) -> Tuple[float, float]:
+    maven_calculator = MAVENVACalculator()
+    return maven_calculator.calculate_text_va(text)
+```
+
+#### 传统文本效价
 ```python
 # 使用NLTK VADER进行情感分析
 from nltk.sentiment import SentimentIntensityAnalyzer

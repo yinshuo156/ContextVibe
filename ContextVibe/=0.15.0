@@ -1,0 +1,11 @@
+Looking in indexes: https://pypi.mirrors.ustc.edu.cn/simple
+Requirement already satisfied: torchvision in /root/miniconda/lib/python3.8/site-packages (0.12.0+cu113)
+Requirement already satisfied: typing-extensions in /root/miniconda/lib/python3.8/site-packages (from torchvision) (4.12.2)
+Requirement already satisfied: numpy in /root/miniconda/lib/python3.8/site-packages (from torchvision) (1.24.4)
+Requirement already satisfied: requests in /root/miniconda/lib/python3.8/site-packages (from torchvision) (2.31.0)
+Requirement already satisfied: torch==1.11.0 in /root/miniconda/lib/python3.8/site-packages (from torchvision) (1.11.0)
+Requirement already satisfied: pillow!=8.3.*,>=5.3.0 in /root/miniconda/lib/python3.8/site-packages (from torchvision) (10.4.0)
+Requirement already satisfied: charset-normalizer<4,>=2 in /root/miniconda/lib/python3.8/site-packages (from requests->torchvision) (2.0.4)
+Requirement already satisfied: idna<4,>=2.5 in /root/miniconda/lib/python3.8/site-packages (from requests->torchvision) (3.4)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /root/miniconda/lib/python3.8/site-packages (from requests->torchvision) (1.26.18)
+Requirement already satisfied: certifi>=2017.4.17 in /root/miniconda/lib/python3.8/site-packages (from requests->torchvision) (2023.11.17)
