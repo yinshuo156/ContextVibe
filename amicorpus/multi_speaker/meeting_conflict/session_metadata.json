@@ -1,0 +1,46 @@
+{
+  "session_id": "meeting_conflict",
+  "description": "David与团队氛围不协调，其他人保持积极",
+  "items": [
+    {
+      "speaker": "Alice",
+      "text": "这个新功能太棒了，用户会喜欢的。",
+      "timestamp": "00:00:10"
+    },
+    {
+      "speaker": "Bob",
+      "text": "我同意，这确实很有价值。",
+      "timestamp": "00:00:25"
+    },
+    {
+      "speaker": "David",
+      "text": "我觉得这个功能完全没有必要，浪费时间。",
+      "timestamp": "00:00:40"
+    },
+    {
+      "speaker": "Charlie",
+      "text": "我们可以收集一些用户反馈来验证。",
+      "timestamp": "00:00:55"
+    },
+    {
+      "speaker": "Alice",
+      "text": "对，让我们做用户调研。",
+      "timestamp": "00:01:10"
+    },
+    {
+      "speaker": "David",
+      "text": "用户调研也是浪费资源，直接取消吧。",
+      "timestamp": "00:01:25"
+    },
+    {
+      "speaker": "Bob",
+      "text": "我们还是要考虑用户需求。",
+      "timestamp": "00:01:40"
+    },
+    {
+      "speaker": "Charlie",
+      "text": "让我们先完成这个版本，然后再评估。",
+      "timestamp": "00:01:55"
+    }
+  ]
+}

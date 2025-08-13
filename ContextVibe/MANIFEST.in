@@ -1,0 +1,9 @@
+include README.md
+include requirements.txt
+include LICENSE
+include *.txt
+include *.md
+recursive-include contextvibe *.py
+recursive-include contextvibe *.json
+recursive-include contextvibe *.yaml
+recursive-include contextvibe *.yml

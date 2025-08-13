@@ -1,0 +1,129 @@
+[
+  {
+    "session_id": "meeting_productive",
+    "description": "高效团队讨论，状态稳定，融入度高",
+    "participants": [
+      "Alice",
+      "Bob",
+      "Charlie"
+    ],
+    "items": [
+      {
+        "speaker": "Alice",
+        "text": "这个方案很好，我们可以立即实施。"
+      },
+      {
+        "speaker": "Bob",
+        "text": "同意，时间安排也很合理。"
+      },
+      {
+        "speaker": "Charlie",
+        "text": "我来负责技术实现部分。"
+      },
+      {
+        "speaker": "Alice",
+        "text": "很好，我们下周开始。"
+      },
+      {
+        "speaker": "Bob",
+        "text": "我会准备相关的文档。"
+      }
+    ]
+  },
+  {
+    "session_id": "meeting_stress",
+    "description": "Alice状态逐渐下滑，其他人保持稳定",
+    "participants": [
+      "Alice",
+      "Bob",
+      "Charlie"
+    ],
+    "items": [
+      {
+        "speaker": "Alice",
+        "text": "这个想法很有创意。"
+      },
+      {
+        "speaker": "Bob",
+        "text": "是的，我们可以试试。"
+      },
+      {
+        "speaker": "Alice",
+        "text": "我觉得...可能有问题。"
+      },
+      {
+        "speaker": "Charlie",
+        "text": "我们可以解决这些问题。"
+      },
+      {
+        "speaker": "Alice",
+        "text": "我不确定能否完成..."
+      }
+    ]
+  },
+  {
+    "session_id": "meeting_conflict",
+    "description": "David与团队氛围不协调",
+    "participants": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "David"
+    ],
+    "items": [
+      {
+        "speaker": "Alice",
+        "text": "让我们讨论这个新方案。"
+      },
+      {
+        "speaker": "David",
+        "text": "这个方案完全不可行。"
+      },
+      {
+        "speaker": "Bob",
+        "text": "我们可以讨论改进方案。"
+      },
+      {
+        "speaker": "David",
+        "text": "浪费时间，我不同意。"
+      },
+      {
+        "speaker": "Charlie",
+        "text": "让我们听听David的顾虑。"
+      }
+    ]
+  },
+  {
+    "session_id": "meeting_complex",
+    "description": "复杂场景，多人状态不稳定",
+    "participants": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "Eva",
+      "Frank"
+    ],
+    "items": [
+      {
+        "speaker": "Alice",
+        "text": "这个项目很重要。"
+      },
+      {
+        "speaker": "Eva",
+        "text": "我觉得有点困难。"
+      },
+      {
+        "speaker": "Bob",
+        "text": "我们可以分步骤进行。"
+      },
+      {
+        "speaker": "Frank",
+        "text": "我不参与这个项目。"
+      },
+      {
+        "speaker": "Charlie",
+        "text": "让我们重新规划一下。"
+      }
+    ]
+  }
+]

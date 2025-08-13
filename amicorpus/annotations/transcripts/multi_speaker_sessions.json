@@ -1,0 +1,191 @@
+[
+  {
+    "session_id": "meeting_productive",
+    "description": "高效的团队讨论，参与者状态稳定且融入度高",
+    "items": [
+      {
+        "speaker": "Alice",
+        "text": "我觉得这个方案很有潜力，我们应该继续推进。",
+        "timestamp": "00:00:10"
+      },
+      {
+        "speaker": "Bob",
+        "text": "我同意Alice的观点，这个方向是对的。",
+        "timestamp": "00:00:25"
+      },
+      {
+        "speaker": "Alice",
+        "text": "我们可以先做一个小规模的测试。",
+        "timestamp": "00:00:40"
+      },
+      {
+        "speaker": "Charlie",
+        "text": "好主意，测试可以帮助我们验证可行性。",
+        "timestamp": "00:00:55"
+      },
+      {
+        "speaker": "Bob",
+        "text": "我负责准备测试环境。",
+        "timestamp": "00:01:10"
+      },
+      {
+        "speaker": "Alice",
+        "text": "我来协调各个部门。",
+        "timestamp": "00:01:25"
+      },
+      {
+        "speaker": "Charlie",
+        "text": "我们下周可以开始实施。",
+        "timestamp": "00:01:40"
+      }
+    ]
+  },
+  {
+    "session_id": "meeting_stress",
+    "description": "Alice状态逐渐下滑，其他人保持稳定",
+    "items": [
+      {
+        "speaker": "Alice",
+        "text": "这个项目我很感兴趣，我们可以做得很好。",
+        "timestamp": "00:00:10"
+      },
+      {
+        "speaker": "Bob",
+        "text": "是的，我们有很好的团队。",
+        "timestamp": "00:00:25"
+      },
+      {
+        "speaker": "Charlie",
+        "text": "让我们开始规划具体步骤。",
+        "timestamp": "00:00:40"
+      },
+      {
+        "speaker": "Alice",
+        "text": "我觉得有点困难，可能不太行。",
+        "timestamp": "00:00:55"
+      },
+      {
+        "speaker": "Bob",
+        "text": "我们可以一起解决这些问题。",
+        "timestamp": "00:01:10"
+      },
+      {
+        "speaker": "Alice",
+        "text": "我真的不知道该怎么办，太复杂了。",
+        "timestamp": "00:01:25"
+      },
+      {
+        "speaker": "Charlie",
+        "text": "让我们简化一下，一步一步来。",
+        "timestamp": "00:01:40"
+      },
+      {
+        "speaker": "Alice",
+        "text": "也许我们应该放弃这个项目。",
+        "timestamp": "00:01:55"
+      }
+    ]
+  },
+  {
+    "session_id": "meeting_conflict",
+    "description": "David与团队氛围不协调，其他人保持积极",
+    "items": [
+      {
+        "speaker": "Alice",
+        "text": "这个新功能太棒了，用户会喜欢的。",
+        "timestamp": "00:00:10"
+      },
+      {
+        "speaker": "Bob",
+        "text": "我同意，这确实很有价值。",
+        "timestamp": "00:00:25"
+      },
+      {
+        "speaker": "David",
+        "text": "我觉得这个功能完全没有必要，浪费时间。",
+        "timestamp": "00:00:40"
+      },
+      {
+        "speaker": "Charlie",
+        "text": "我们可以收集一些用户反馈来验证。",
+        "timestamp": "00:00:55"
+      },
+      {
+        "speaker": "Alice",
+        "text": "对，让我们做用户调研。",
+        "timestamp": "00:01:10"
+      },
+      {
+        "speaker": "David",
+        "text": "用户调研也是浪费资源，直接取消吧。",
+        "timestamp": "00:01:25"
+      },
+      {
+        "speaker": "Bob",
+        "text": "我们还是要考虑用户需求。",
+        "timestamp": "00:01:40"
+      },
+      {
+        "speaker": "Charlie",
+        "text": "让我们先完成这个版本，然后再评估。",
+        "timestamp": "00:01:55"
+      }
+    ]
+  },
+  {
+    "session_id": "meeting_complex",
+    "description": "复杂场景：Eva状态不稳定，Frank不融入，其他人正常",
+    "items": [
+      {
+        "speaker": "Alice",
+        "text": "今天的会议很有收获，我们进展不错。",
+        "timestamp": "00:00:10"
+      },
+      {
+        "speaker": "Eva",
+        "text": "是的，我觉得我们做得很好。",
+        "timestamp": "00:00:25"
+      },
+      {
+        "speaker": "Frank",
+        "text": "我觉得这些都是无意义的讨论。",
+        "timestamp": "00:00:40"
+      },
+      {
+        "speaker": "Bob",
+        "text": "我们可以继续优化这个方案。",
+        "timestamp": "00:00:55"
+      },
+      {
+        "speaker": "Eva",
+        "text": "我有点担心，可能做不好。",
+        "timestamp": "00:01:10"
+      },
+      {
+        "speaker": "Charlie",
+        "text": "没关系，我们可以互相帮助。",
+        "timestamp": "00:01:25"
+      },
+      {
+        "speaker": "Frank",
+        "text": "这种团队合作根本没有效率。",
+        "timestamp": "00:01:40"
+      },
+      {
+        "speaker": "Eva",
+        "text": "也许我应该退出这个项目。",
+        "timestamp": "00:01:55"
+      },
+      {
+        "speaker": "Alice",
+        "text": "Eva，我们都很支持你，别担心。",
+        "timestamp": "00:02:10"
+      },
+      {
+        "speaker": "Bob",
+        "text": "我们可以一起克服困难。",
+        "timestamp": "00:02:25"
+      }
+    ]
+  }
+]

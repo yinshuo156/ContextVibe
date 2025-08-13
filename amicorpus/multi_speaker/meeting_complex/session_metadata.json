@@ -1,0 +1,56 @@
+{
+  "session_id": "meeting_complex",
+  "description": "复杂场景：Eva状态不稳定，Frank不融入，其他人正常",
+  "items": [
+    {
+      "speaker": "Alice",
+      "text": "今天的会议很有收获，我们进展不错。",
+      "timestamp": "00:00:10"
+    },
+    {
+      "speaker": "Eva",
+      "text": "是的，我觉得我们做得很好。",
+      "timestamp": "00:00:25"
+    },
+    {
+      "speaker": "Frank",
+      "text": "我觉得这些都是无意义的讨论。",
+      "timestamp": "00:00:40"
+    },
+    {
+      "speaker": "Bob",
+      "text": "我们可以继续优化这个方案。",
+      "timestamp": "00:00:55"
+    },
+    {
+      "speaker": "Eva",
+      "text": "我有点担心，可能做不好。",
+      "timestamp": "00:01:10"
+    },
+    {
+      "speaker": "Charlie",
+      "text": "没关系，我们可以互相帮助。",
+      "timestamp": "00:01:25"
+    },
+    {
+      "speaker": "Frank",
+      "text": "这种团队合作根本没有效率。",
+      "timestamp": "00:01:40"
+    },
+    {
+      "speaker": "Eva",
+      "text": "也许我应该退出这个项目。",
+      "timestamp": "00:01:55"
+    },
+    {
+      "speaker": "Alice",
+      "text": "Eva，我们都很支持你，别担心。",
+      "timestamp": "00:02:10"
+    },
+    {
+      "speaker": "Bob",
+      "text": "我们可以一起克服困难。",
+      "timestamp": "00:02:25"
+    }
+  ]
+}

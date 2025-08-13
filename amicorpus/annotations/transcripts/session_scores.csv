@@ -1,0 +1,5 @@
+session_id,valence,arousal,energy,cohesion,file_count
+sample,0.6441935941437122,0.6756,0.8678013560099481,0.27494553376906317,12
+statistics,0.0,0.0,0.0,0.47368421052631576,2
+vaec,0.0,0.0,0.0,0.0,2
+summary,0.0,0.0,0.0,1.0,1

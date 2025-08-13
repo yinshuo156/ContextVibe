@@ -1,0 +1,46 @@
+{
+  "session_id": "meeting_stress",
+  "description": "Alice状态逐渐下滑，其他人保持稳定",
+  "items": [
+    {
+      "speaker": "Alice",
+      "text": "这个项目我很感兴趣，我们可以做得很好。",
+      "timestamp": "00:00:10"
+    },
+    {
+      "speaker": "Bob",
+      "text": "是的，我们有很好的团队。",
+      "timestamp": "00:00:25"
+    },
+    {
+      "speaker": "Charlie",
+      "text": "让我们开始规划具体步骤。",
+      "timestamp": "00:00:40"
+    },
+    {
+      "speaker": "Alice",
+      "text": "我觉得有点困难，可能不太行。",
+      "timestamp": "00:00:55"
+    },
+    {
+      "speaker": "Bob",
+      "text": "我们可以一起解决这些问题。",
+      "timestamp": "00:01:10"
+    },
+    {
+      "speaker": "Alice",
+      "text": "我真的不知道该怎么办，太复杂了。",
+      "timestamp": "00:01:25"
+    },
+    {
+      "speaker": "Charlie",
+      "text": "让我们简化一下，一步一步来。",
+      "timestamp": "00:01:40"
+    },
+    {
+      "speaker": "Alice",
+      "text": "也许我们应该放弃这个项目。",
+      "timestamp": "00:01:55"
+    }
+  ]
+}

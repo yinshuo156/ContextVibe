@@ -1,0 +1,14 @@
+{
+  "processing_timestamp": "2025-08-13T08:32:12.568588",
+  "total_files_processed": 12,
+  "processing_status": "completed",
+  "system_info": {
+    "python_version": "3.8.18 (default, Sep 11 2023, 13:40:15) \n[GCC 11.2.0]",
+    "platform": "linux"
+  },
+  "file_summary": {
+    "audio_files": 6,
+    "text_files": 6,
+    "video_files": 0
+  }
+}

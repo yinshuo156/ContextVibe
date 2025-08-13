@@ -1,0 +1,41 @@
+{
+  "session_id": "meeting_productive",
+  "description": "高效的团队讨论，参与者状态稳定且融入度高",
+  "items": [
+    {
+      "speaker": "Alice",
+      "text": "我觉得这个方案很有潜力，我们应该继续推进。",
+      "timestamp": "00:00:10"
+    },
+    {
+      "speaker": "Bob",
+      "text": "我同意Alice的观点，这个方向是对的。",
+      "timestamp": "00:00:25"
+    },
+    {
+      "speaker": "Alice",
+      "text": "我们可以先做一个小规模的测试。",
+      "timestamp": "00:00:40"
+    },
+    {
+      "speaker": "Charlie",
+      "text": "好主意，测试可以帮助我们验证可行性。",
+      "timestamp": "00:00:55"
+    },
+    {
+      "speaker": "Bob",
+      "text": "我负责准备测试环境。",
+      "timestamp": "00:01:10"
+    },
+    {
+      "speaker": "Alice",
+      "text": "我来协调各个部门。",
+      "timestamp": "00:01:25"
+    },
+    {
+      "speaker": "Charlie",
+      "text": "我们下周可以开始实施。",
+      "timestamp": "00:01:40"
+    }
+  ]
+}

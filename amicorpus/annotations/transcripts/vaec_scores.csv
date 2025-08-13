@@ -1,0 +1,7 @@
+file_path,file_type,file_size,valence,arousal,energy,cohesion
+/root/lanyun-tmp/amicorpus/audio/close_talking/sample_happy.wav,.wav,220544,1.0,1.0,[0.80506897],0.0
+/root/lanyun-tmp/amicorpus/audio/close_talking/sample_sad.wav,.wav,220544,0.7937679707185611,1.0,[0.80346203],0.0
+/root/lanyun-tmp/amicorpus/audio/close_talking/sample_excited.wav,.wav,220544,1.0,1.0,[0.99487307],0.0
+/root/lanyun-tmp/amicorpus/annotations/transcripts/sample_positive.txt,.txt,58,0.9039,0.615,0.0,0.0
+/root/lanyun-tmp/amicorpus/annotations/transcripts/sample_negative.txt,.txt,64,-0.4767,-0.237,0.0,0.0
+/root/lanyun-tmp/amicorpus/annotations/transcripts/sample_neutral.txt,.txt,45,0.0,0.0,0.0,0.0

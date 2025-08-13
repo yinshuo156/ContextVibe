@@ -1,0 +1,13 @@
+file_path,file_name,file_type,file_size,valence,arousal,energy,cohesion
+/root/lanyun-tmp/amicorpus/sample_data/sample_happy.wav,sample_happy.wav,.wav,220544,1.0,1.0,0.8050689697265625,0.0
+/root/lanyun-tmp/amicorpus/sample_data/sample_sad.wav,sample_sad.wav,.wav,220544,0.7937679707185611,1.0,0.803462028503418,0.0
+/root/lanyun-tmp/amicorpus/sample_data/sample_excited.wav,sample_excited.wav,.wav,220544,1.0,1.0,0.9948730697998633,0.0
+/root/lanyun-tmp/amicorpus/sample_data/sample_positive.txt,sample_positive.txt,.txt,58,0.9039,0.615,0.0,0.0
+/root/lanyun-tmp/amicorpus/sample_data/sample_negative.txt,sample_negative.txt,.txt,64,-0.4767,-0.237,0.0,0.0
+/root/lanyun-tmp/amicorpus/sample_data/sample_neutral.txt,sample_neutral.txt,.txt,45,0.0,0.0,0.0,0.0
+/root/lanyun-tmp/amicorpus/sample_data/sample_calm.wav,sample_calm.wav,.wav,17,0.0,0.0,0.0,0.0
+/root/lanyun-tmp/amicorpus/sample_data/sample_angry.wav,sample_angry.wav,.wav,17,0.0,0.0,0.0,0.0
+/root/lanyun-tmp/amicorpus/sample_data/sample_neutral.wav,sample_neutral.wav,.wav,17,0.0,0.0,0.0,0.0
+/root/lanyun-tmp/amicorpus/sample_data/sample_excited.txt,sample_excited.txt,.txt,42,0.0,0.0,0.0,0.0
+/root/lanyun-tmp/amicorpus/sample_data/sample_calm.txt,sample_calm.txt,.txt,39,0.0,0.0,0.0,0.0
+/root/lanyun-tmp/amicorpus/sample_data/sample_confused.txt,sample_confused.txt,.txt,51,0.0,0.0,0.0,0.0
